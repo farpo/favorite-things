@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "favorite_things:item/spacious_bundle_empty"
+  }
+}

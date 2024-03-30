@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "h": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "o": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "s": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "shs",
+    "hoh",
+    "hhh"
+  ],
+  "result": {
+    "item": "favorite_things:spacious_bundle_empty"
+  },
+  "show_notification": true
+}

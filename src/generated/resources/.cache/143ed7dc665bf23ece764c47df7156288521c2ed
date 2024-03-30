@@ -1,0 +1,7 @@
+// 1.20.1	2024-03-30T20:37:32.5938375	Favorite things/Registrate Provider for favorite_things [Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
+39968467b5ab64ef4d02681ba6303a0afa7ee7a3 assets\favorite_things\models\item\spacious_bundle_full.json
+4c2cbae670be2ee8d8e1af76c9ff6b40db4bdd76 data\favorite_things\advancements\recipes\tools\spacious_bundle_empty.json
+9ec650273803831cd5e9ca3fad772d9d932e9faf data\favorite_things\recipes\spacious_bundle_empty.json
+d49d8eeb5aabf0eb55fd7527d8f4138633f66a02 assets\favorite_things\models\item\spacious_bundle_empty.json
+ec17883e345b1b93fd0f0f955605fa787093ad6b assets\favorite_things\lang\en_ud.json
+584b6dfc81cc2860643039197b5a0336186f4e52 assets\favorite_things\lang\en_us.json
