@@ -19,6 +19,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+import net.minecraft.world.event.GameEvent;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -38,6 +39,7 @@ public class SpaciousBundleFull extends Item {
 		Entity entity = getEntityFromData(context.getWorld(), posToSpawnAt, nbt);
 		if(entity == null) return ActionResult.FAIL;
 		context.getWorld().spawnEntity(entity);
+		context.getWorld().emitGameEvent(context.getPlayer(), GameEvent.ENTITY_PLACE, entity.getPos());
 		context.getPlayer().setStackInHand(context.getHand(), new ItemStack(FavoriteItems.SPACIOUS_BUNDLE_EMPTY));
 		return ActionResult.SUCCESS;
 	}
